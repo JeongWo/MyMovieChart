@@ -17,6 +17,10 @@
 		7F87F33B29C994DF00B23C28 /* MyMovieChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87F33A29C994DF00B23C28 /* MyMovieChartUITestsLaunchTests.swift */; };
 		7F87F34829C9954000B23C28 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87F34729C9954000B23C28 /* ListViewController.swift */; };
 		7F87F34A29C9968D00B23C28 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87F34929C9968D00B23C28 /* MovieVO.swift */; };
+		7F87F34C29CAE43E00B23C28 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87F34B29CAE43E00B23C28 /* MovieCell.swift */; };
+		7F87F35129CAED4C00B23C28 /* darknight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F87F34E29CAED4C00B23C28 /* darknight.jpeg */; };
+		7F87F35229CAED4C00B23C28 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F87F34F29CAED4C00B23C28 /* secret.jpg */; };
+		7F87F35329CAED4C00B23C28 /* rain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F87F35029CAED4C00B23C28 /* rain.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		7F87F33A29C994DF00B23C28 /* MyMovieChartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieChartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7F87F34729C9954000B23C28 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		7F87F34929C9968D00B23C28 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		7F87F34B29CAE43E00B23C28 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		7F87F34E29CAED4C00B23C28 /* darknight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpeg; sourceTree = "<group>"; };
+		7F87F34F29CAED4C00B23C28 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		7F87F35029CAED4C00B23C28 /* rain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,11 @@
 		7F87F31629C994DE00B23C28 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
+				7F87F34D29CAE9AD00B23C28 /* Resources */,
 				7F87F31729C994DE00B23C28 /* AppDelegate.swift */,
 				7F87F31929C994DE00B23C28 /* SceneDelegate.swift */,
 				7F87F31D29C994DE00B23C28 /* Main.storyboard */,
+				7F87F34B29CAE43E00B23C28 /* MovieCell.swift */,
 				7F87F34929C9968D00B23C28 /* MovieVO.swift */,
 				7F87F34729C9954000B23C28 /* ListViewController.swift */,
 				7F87F32029C994DE00B23C28 /* Assets.xcassets */,
@@ -128,6 +138,16 @@
 				7F87F33A29C994DF00B23C28 /* MyMovieChartUITestsLaunchTests.swift */,
 			);
 			path = MyMovieChartUITests;
+			sourceTree = "<group>";
+		};
+		7F87F34D29CAE9AD00B23C28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F87F34E29CAED4C00B23C28 /* darknight.jpeg */,
+				7F87F35029CAED4C00B23C28 /* rain.jpeg */,
+				7F87F34F29CAED4C00B23C28 /* secret.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +213,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-			
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -236,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F87F32429C994DE00B23C28 /* LaunchScreen.storyboard in Resources */,
+				7F87F35329CAED4C00B23C28 /* rain.jpeg in Resources */,
 				7F87F32129C994DE00B23C28 /* Assets.xcassets in Resources */,
+				7F87F35129CAED4C00B23C28 /* darknight.jpeg in Resources */,
 				7F87F31F29C994DE00B23C28 /* Main.storyboard in Resources */,
+				7F87F35229CAED4C00B23C28 /* secret.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +287,7 @@
 				7F87F31829C994DE00B23C28 /* AppDelegate.swift in Sources */,
 				7F87F34A29C9968D00B23C28 /* MovieVO.swift in Sources */,
 				7F87F31A29C994DE00B23C28 /* SceneDelegate.swift in Sources */,
+				7F87F34C29CAE43E00B23C28 /* MovieCell.swift in Sources */,
 				7F87F34829C9954000B23C28 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
